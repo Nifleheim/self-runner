@@ -3,8 +3,8 @@ services:
     image: ikanpaus/self-runner:v1
     restart: always
     environment:
-      - REPO: SPS-Redigan/orca
-      - TOKEN: A5NP4X2BEPVVE4LJVMDRQG3FQQNPK
+      - REPO: <owner/repo>
+      - TOKEN: <token>
     deploy:
       mode: replicated
       replicas: 2
